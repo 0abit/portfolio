@@ -19,6 +19,9 @@ body{
     flex-direction: row;
     align-items: center;
 }
+.content_aboutme p{
+    font-size:24px;
+}
 .navbar {
     background-repeat: no-repeat;
     height: 402.547px;
@@ -28,7 +31,6 @@ body{
     border-radius: 5px;
     border: 5px double #A2BDC6;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
-    background-image:url(../images/navbara2.JPG);
 }
 
 .navbar a {
@@ -48,9 +50,7 @@ body{
     color: #e6f1fc;
     font-weight: bold;
 }
-.content_aboutme{
-    background-color: #5275ce  ;
-}
+
 .aboutme .degrees {
     display: flex;
     justify-content: center;

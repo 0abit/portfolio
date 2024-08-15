@@ -13,7 +13,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 .content {
     display: flex;
@@ -29,15 +28,13 @@ body{
     border-radius: 5px;
     border: 5px double #A2BDC6;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
-    background-image:url(../images/navbara2.JPG);
-}
 
+}
 .navbar a {
     display: flex;
     flex-direction: column;
     background: linear-gradient(to right,#1A4796, #3699FF);
     border-radius: 20px;
-    border: 5px double var(--navbar-border-color);
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
     line-height: 20px;
     padding: 10px;
@@ -48,10 +45,6 @@ body{
     text-align: center;
     color: #e6f1fc;
     font-weight: bold;
-}
-
-.content_contact {
-    background-color: #5275ce  ;
 }
 .content_contact h2{
     text-align: center;

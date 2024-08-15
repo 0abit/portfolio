@@ -28,7 +28,7 @@ body{
     border-radius: 5px;
     border: 5px double #A2BDC6;
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
-    background-image:url(../images/navbara2.JPG);
+
 }
 
 .navbar a {
@@ -36,7 +36,6 @@ body{
     flex-direction: column;
     background: linear-gradient(to right,#1A4796, #3699FF);
     border-radius: 20px;
-    border: 5px double var(--navbar-border-color);
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
     line-height: 20px;
     padding: 10px;
@@ -48,16 +47,17 @@ body{
     color: #e6f1fc;
     font-weight: bold;
 }
-.content_hobby{
-    background-color: #5275ce  ;
-}
+
 .hobby .path {
     display: flex;
     justify-content: center;
     gap: 10px;
-    background-color: var(--marquee-bg-color);
     height: 350px;
 }
+.content_hobby p{
+    font-size:24px;
+}
+
 .hobby .morecontent img {
     margin-top: 5px;
     height: 250px;

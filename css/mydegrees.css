@@ -1,0 +1,148 @@
+* {
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url(../images/starfall-night-sky-mountains-aesthetic-gif-desktop-wallpaper.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar {
+    background-repeat: no-repeat;
+    height: 402.547px;
+    transform: translate(0px, -111px);
+    width: 312px;
+    margin-right: 7px;
+    border-radius: 5px;
+    border: 5px double #A2BDC6;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    background-image:url(../images/navbara2.JPG);
+}
+
+.navbar a {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right,#1A4796, #3699FF);
+    border-radius: 20px;
+    border: 5px double var(--navbar-border-color);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    line-height: 20px;
+    padding: 10px;
+    text-decoration: none;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 5px;
+    text-align: center;
+    color: #e6f1fc;
+    font-weight: bold;
+}
+.content_hobby{
+    background-color: #5275ce  ;
+}
+.hobby .path {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--marquee-bg-color);
+    height: 350px;
+}
+.hobby .morecontent img {
+    margin-top: 5px;
+    height: 250px;
+    width: 210px;
+}
+
+.hobby .morecontent p {
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+}
+.marquee {
+    width: 1072.61px;
+    transform: translate(-276px, 0px);
+    position: relative;
+    left: 276px;
+    top: 2px;
+    height: 31.9375px;
+    white-space: nowrap;
+    margin-top: 0;
+    border-radius: 5px;
+    border: 5px double #A2BDC6;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #e6f1fc;
+}
+
+@keyframes animate {
+    50% {
+       transform: translateX(-60%);
+    }
+}
+
+.marquee div {
+    animation: animate 5s linear infinite;
+    padding-left:60%;
+    display: inline-block;
+}
+.img_navbar1{
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    max-height: 500px;
+}
+.bar{
+    width:750px;
+    height:150px;
+    max-height:15000px;
+    max-width:1500px;
+    position:absolute;
+    top:0;
+}
+.hobby {
+
+    height: 650px;
+    width: 745px;
+    margin-top: 7px;
+    border-radius: 5px;
+    border: 5px double #A2BDC6;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+    position: relative;
+    color: #e6f1fc;
+}
+
+.intro_hobby {
+    text-transform: uppercase;
+    text-align:start;
+}
+
+footer {
+    width: 1077px;
+    height: 50px;
+    border-radius: 5px;
+    border: 5px double #A2BDC6;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right,#1A4796, #3699FF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: #e6f1fc;
+}

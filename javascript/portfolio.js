@@ -1,11 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const audio = document.getElementById('testbgm');
-    audio.volume = 0.2;
-    audio.muted = false;
-    audio.play();
-});
-document.addEventListener('DOMContentLoaded', () => {
-    const audio = document.getElementById('hobby');
+    const audio = document.getElementById('bgm');
     audio.volume = 0.2;
     audio.muted = false;
     audio.play();

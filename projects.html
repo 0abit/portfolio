@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Portfolio</a>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="hobby.html">Hobby</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
+
+    <section class="projects-section">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            
+            <!-- ==========================================
+                 DỰ ÁN 1: GAME CONSOLE (Layout đầy đủ)
+                 ========================================== -->
+            <div class="project-main-card">
+                <div class="project-header">
+                    <div class="project-title-area">
+                        <h3>Website Quản Lý Game Console</h3> <!-- THAY TÊN DỰ ÁN -->
+                        <div class="tech-stack">
+                            <span>ASP.NET Core 9</span> <!-- THAY TECH STACK -->
+                            <span>C#</span>
+                            <span>SQL Server</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/0abit" target="_blank" class="cta-button">
+                            <i class="fab fa-github"></i> View Source
+                        </a>
+                    </div>
+                </div>
+
+                <p class="project-desc">
+                    Hệ thống quản lý cửa hàng kinh doanh thiết bị chơi game, hỗ trợ phân quyền Admin/User và xử lý quy trình thanh toán. <!-- THAY MÔ TẢ -->
+                </p>
+
+                <div class="project-gallery">
+                    <div class="gallery-item main-img">
+                        <h4><i class="fas fa-desktop"></i> Main Interface</h4>
+                        <img src="images/homepage_demo.png" alt="UI"> <!-- THAY ẢNH TRANG CHỦ -->
+                    </div>
+
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <h4><i class="fas fa-database"></i> Database Schema</h4>
+                            <img src="images/erd_diagram.png" alt="ERD"> <!-- THAY ẢNH ERD -->
+                        </div>
+                        <div class="gallery-item">
+                            <h4><i class="fas fa-sitemap"></i> Use Case</h4>
+                            <img src="images/use_case.png" alt="Use Case"> <!-- THAY ẢNH USE CASE -->
+                        </div>
+                        <div class="gallery-item">
+                            <h4><i class="fas fa-shopping-cart"></i> Cart Logic</h4>
+                            <img src="images/cart_demo.png" alt="Cart"> <!-- THAY ẢNH GIỎ HÀNG -->
+                        </div>
+                        <div class="gallery-item">
+                            <h4><i class="fas fa-file-invoice-dollar"></i> Checkout</h4>
+                            <img src="images/checkout_demo.png" alt="Checkout"> <!-- THAY ẢNH THANH TOÁN -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-features">
+                    <h4>Key Features:</h4>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Thiết kế DB tối ưu với hơn 15 bảng liên kết.</li>
+                        <li><i class="fas fa-check-circle"></i> Xử lý CRUD và bảo mật với EF Core.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="project-main-card">
+                <div class="project-header">
+                    <div class="project-title-area">
+                        <h3>Course Management System</h3> 
+                        <div class="tech-stack">
+                            <span>PHP (Raw)</span> 
+                            <span>CSS</span>
+                            <span>MySQL</span>
+                            <span>Javascript</span>
+                        </div>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://github.com/0abit" target="_blank" class="cta-button">
+                            <i class="fab fa-github"></i> View Source
+                        </a>
+                    </div>
+                </div>
+
+                <p class="project-desc">
+                    Hệ thống học trực tuyến với chức năng quản lý video bài học, theo dõi tiến độ và hệ thống xác thực người dùng. 
+                </p>
+
+                <div class="project-gallery">
+                    <!-- Ảnh Dashboard to nhất -->
+                    <div class="gallery-item main-img">
+                        <h4><i class="fas fa-columns"></i> Student Dashboard (Dark Mode)</h4>
+                        <img src="images/php_dashboard.png" alt="Dashboard"> 
+                    </div>
+
+                    <div class="gallery-grid">
+                        <!-- Ảnh trang Đăng ký -->
+                        <div class="gallery-item">
+                            <h4><i class="fas fa-user-plus"></i> User Authentication</h4>
+                            <img src="images/php_register.png" alt="Register"> 
+                        </div>
+                        <!-- Ảnh Chụp Code từ Ray.so -->
+                        <div class="gallery-item">
+                            <h4><i class="fas fa-code"></i> Backend Logic (Bcrypt & PDO)</h4>
+                            <img src="images/php_code_logic.png" alt="PHP Code"> <!-- THAY ẢNH CODE RAY.SO -->
+                        </div>
+                        <!-- Ảnh chụp phpMyAdmin -->
+                        <div class="gallery-item">
+                            <h4><i class="fas fa-server"></i> Database Management</h4>
+                            <img src="images/php_db_admin.png" alt="Database"> <!-- THAY ẢNH PHPMYADMIN -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-features">
+                    <h4>Key Backend Features:</h4>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Quản lý phiên làm việc bằng Session và Secure Cookie.</li>
+                        <li><i class="fas fa-check-circle"></i> Xử lý Upload và quản lý tệp tin từ phía server.</li>
+                        <li><i class="fas fa-check-circle"></i> Tối ưu hóa truy vấn SQL chống tấn công Injection.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2026 Nguyen Quang Phat, All rights reserved</p>
+        <div class="social-contacts">
+            <a href="https://www.facebook.com/phatquang1119/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://github.com/0abit" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/oabitfc/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
+    </footer>
+    <script src="javascript/portfolio.js" defer></script>
+</body>
+</html>

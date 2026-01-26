@@ -1,0 +1,183 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', sans-serif;
+    }
+    
+    :root{
+        --dark-bg: #0a0a0a;
+        --darker-bg: #050505;
+        --accent: #00b4d8;
+        --accent-glow: #00b4d8;
+        --text: #ffffff;
+    }
+    body{
+        background-color: var(--dark-bg);
+        color: var(--text);
+        line-height: 1.6;
+        overflow-x: hidden;
+    }
+    .navbar{
+        position:fixed;
+        top:0;
+        width: 100%;
+        padding: 1.5rem 5%;
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        background: rgba(10, 10, 10, 0.95);
+        backdrop-filter: blur(10px);
+        z-index: 1000;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    .logo{
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: var(--accent);
+        text-decoration: none;
+        position: relative;
+        padding-left: 2.5rem;
+    }
+    .nav-links{
+        display:flex;
+        gap:2rem;
+        list-style:none;
+    }
+    .nav-links a{
+        color: var(--text);
+        text-decoration: none;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        position: relative;
+    }
+    .nav-links a::after{
+        content:'';
+        position: absolute;
+        bottom: -5px;
+        left: 0;
+        width:0;
+        height: 2px;
+        background: var(--accent);
+        transition: width 0.3s ease;
+    }
+    .nav-links a:hover::after{
+        width: 100%;
+    }
+
+ .cta-button{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: linear-gradient( 45deg,var(--accent), #00b4d8);
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+ }
+ .skills {
+    padding-top: 150px !important; /* Dùng !important để đảm bảo nó đè lên các lệnh cũ */
+    min-height: 85vh; /* Giúp footer luôn nằm ở dưới cùng trang */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skills h2 {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+    background: linear-gradient(45deg, var(--accent), #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    width: 90%;
+    max-width: 1200px;
+}
+ .skill-card{
+    padding:2rem;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.05);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+ }
+ .skill-card:hover{
+    transform: translateY(-10px);
+    border-color: var(--accent);
+    box-shadow: 0 10px 30px var(--accent-glow);
+ }
+ .skills-card i{
+    font-size: 2.5rem;
+    color: var(--accent);
+    margin-bottom: 1rem;
+ }
+ .hobby-section {
+    padding-top: 150px !important; /* Đẩy xuống hẳn 150px */
+    min-height: 100vh; /* Giúp trang dài ra để không bị trống */
+}
+
+
+.hobby-section h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    background: linear-gradient(45deg, var(--accent), #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.skills-grid {
+    display: grid;
+    /* Sửa chữ min-max thành minmax (viết liền) */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 2rem;
+    padding: 0 5%;
+}
+ footer{
+    background:var(--darker-bg);
+    padding: 3rem 5%;
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+.social-contacts{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.social-contacts a{
+    color:var(--text);
+    font-size: 1.5rem;
+    transition: all 0.3s ease;
+}
+.social-contacts a:hover{
+     color: var(--accent);
+     transform: translateY(-3px);
+}
+@media (max-width: 768px){
+.hero {
+    text-direction: column;
+    text-align: center;
+    padding-top: 8rem;
+}
+.hero-content{
+    padding-right: 0;
+    margin-bottom: 3rem;
+}
+.profile-img{
+    width: 280px;
+    height: 280px;
+}
+.nav-links{
+    display:none;
+}
+.logo{
+    font-size: 1.5rem;
+    padding-left: 2rem;
+}
+}

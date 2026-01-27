@@ -1,7 +1,7 @@
 *{margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Roboto', sans-serif;
     }
     
     :root{
@@ -74,6 +74,9 @@
         flex:1;
         padding-right: 5rem;
     }
+    .hero-content p{
+        font-weight:bold;
+    }
     .my-image{
         flex: 1;
         text-align: center;
@@ -97,7 +100,7 @@
     .hero h1{
         font-size: 4rem;
         margin-bottom: 1.5rem;
-        background: linear-gradient(45deg, var(--accent) 30%, #ffffff 70%);
+        background: linear-gradient(360deg, var(--accent) 40%, #ffffff 60%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;  
  }
@@ -106,6 +109,11 @@
     margin-bottom: 2rem;
     opacity: 0.9;
     max-width: 600px;
+ }
+ h1 span{
+    font-size:0.6em;
+    font-weight:500;
+    color:#7dd3fc;
  }
  .cta-button{
     display: inline-block;

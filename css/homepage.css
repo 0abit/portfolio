@@ -1,7 +1,7 @@
 *{margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', sans-serif;
+    font-family: 'Roboto', sans-serif;
     }
     
     :root{
@@ -73,6 +73,9 @@
     .hero-content{
         flex:1;
         padding-right: 5rem;
+    }
+    .hero-content p{
+        font-weight: bolder;
     }
     .my-image{
         flex: 1;
